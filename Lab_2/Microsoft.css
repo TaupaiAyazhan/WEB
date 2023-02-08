@@ -1,0 +1,215 @@
+body{
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#logo{
+    position: relative;
+    width: 108px;
+    height: 23px;
+    left:100px;
+    margin: -3px;
+}
+
+.reference{
+    font-size: 13px;
+    color: rgb(38,38,38);
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+#linkof365{
+    position: relative;
+    left:130px;
+
+}
+
+#linkofoffice{
+    position: relative;
+    left:160px
+}
+
+#linkofwindows{
+    position: relative;
+    left:190px;
+}
+
+#linkofsupport{
+    position: relative;
+    left:220px;
+}
+
+#linkofproducts {
+    position: relative;
+    left: 650px;
+
+}
+
+#search{
+    position: relative;
+    left: 680px;
+}
+#majorphoto{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+
+}
+#text{
+    box-sizing: border-box;
+    width: 444px;
+    height: 88px;
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+    color: #FFFFFF;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+}
+.information{
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+    color: #FFFFFF;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: 444px;
+    height: 72px;
+}
+
+#sign{
+    width: 16px;
+    height: 18px;
+}
+
+#checkbutton{
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+    width: 241px;
+    height: 40px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    background-color: #0067b8;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-size: 15px;
+    border: .125rem solid transparent;
+    padding: .625rem .75rem;
+
+}
+
+#enter{
+    position: relative;
+    left: 710px;
+}
+
+.firstbox{
+    position: relative;
+    width: 306px;
+    margin-top: 100px;
+    margin-left: 75px;
+    bottom: 250px;
+}
+
+.secondbox{
+    position: relative;
+    width: 306px;
+    left: 330px;
+    margin-top: 100px;
+    margin-left: 75px;
+    bottom: 764px;
+
+}
+.thirdbox{
+    position: relative;
+    width: 306px;
+    left: 660px;
+    margin-top: 100px;
+    margin-left: 75px;
+    bottom: 1255px;
+
+}
+.fourthbox{
+    position: relative;
+    width: 306px;
+    left: 990px;
+    margin-top: 100px;
+    margin-left: 75px;
+    bottom: 1723px;
+
+}
+.headers{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.8125rem;
+    font-weight: 600;
+}
+
+.image{
+    width: 306px;
+    height: 172px;
+}
+
+.infobox{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.linksbox{
+    color: #0067b8;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.picture{
+    position: relative;
+    width: 1296px;
+    height: 487px;
+    margin-left: 75px;
+    margin-right: 75px;
+    bottom: 1550px;
+}
+
+
+#bighead{
+    position: relative;
+    bottom: 1900px;
+    width: 390px;
+    height: 88px;
+    font-size: 2.3125rem;
+    margin-bottom: 1.25rem;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    left: 230px;
+
+}
+
+#newtext{
+    width: 390px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#downward{
+    width: 88px;
+    height: 44px;
+    font-weight: 600;
+    border: .125rem solid transparent;
+    position: relative;
+    background-color: #0067b8;
+    color: #FFFFFF;
+    font-size: 1rem;
+    border-radius: .125rem;
+}
