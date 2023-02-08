@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+#frame{
+    width: 470px;
+    height: 630px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+#acc{
+    display: flex;
+    width: 255px;
+    height: 543px;
+    margin-top: -612px;
+    margin-left: 455px;
+    border-radius: 25px;
+}
+.block-1{
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    text-align: center;
+    width: 340px;
+    height: 400px;
+    margin-left: 760px;
+    margin-top: -550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width:175px;
+    margin: 50px 50px 37px 50px;
+}
+input[type="text"],input[type="password"]{
+    background-color: rgb(250, 250, 250);
+    display: block;
+    margin-bottom:-12px;
+    border: 1px solid rgb(219,219,219);
+    width: 245px;
+    text-align:justify; 
+    padding: 12px 10px;
+    border-radius: 3px;
+    margin-left: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+input::placeholder{
+    color:rgb(143, 143, 143);
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    border: 1px solid rgb(143, 143, 143);
+}
+.block-1 button{
+    border: none;
+    background-color: rgb(103, 182, 250);
+    color: white;
+    margin-top: 7px;
+    width: 267px;
+    padding: 9px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.line{
+    border: 0.5px solid rgb(219,219,219);
+    margin: 23px 36px 30px;
+}
+#ili{
+    display: block;
+    width: 30px;
+    color: rgb(135, 133, 133);
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 18px 20px;
+    margin-left: 138px;
+    margin-top: -43px;
+    background-color: rgb(255, 255, 255);
+}
+#fcbk{
+    width: 15px;
+    margin-right: 7px;
+}
+.log-fcbk{
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(56,81,133);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.f-pswd{
+    font-size: 12px;
+    color:rgb(56,81,133);
+}
+.block-2{
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    text-align: center;
+    width: 340px;
+    height: 40px;
+    margin-left: 760px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block-2 a{
+    color:rgb(0,149,246);
+    font-weight: bold;
+}
+.download{
+    display: flex;
+    margin-left: 840px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#app-store{
+    width: 140px;
+    margin-top: 30px;
+    margin-left: -220px;
+
+}
+#play-market{
+    width: 140px;
+    margin-top: 30px;
+    margin-left: -74px;
+    
+}
+footer{
+    margin-top: 80px;
+    font-size: 12.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143,143,143);
+    text-align: center;
+}
+.footer1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143,143,143);
+    margin: 7px;
+
+}
+footer img{
+    position: relative;
+    margin-left: 3px;
+    width: 13px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
