@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <style>
+       body{
+        background-image: url("https://images.wallpaperscraft.com/image/single/gradient_blur_abstraction_157512_2560x1440.jpg");
+        
+       }
+        
+        .top{
+            background-image: linear-gradient(to left top, #f200f2, #d92bf5, #bf3cf6, #a547f5, #894ef3, #a043e5, #b238d6, #c02dc7, #e600a2, #fa007b);            
+            height: 50px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            border-color: rgb(85, 85, 85);
+        }
+        .listentry{
+            position: relative;
+            left: 20px;
+            top:150px;
+            width: 800px;
+            height: 30px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            border-color: rgb(85, 85, 85);
+        }
+        ::placeholder{
+            position: relative;
+            left: 20px;
+        }
+        .add{
+            position: relative;
+            left: 270px;
+            top:150px;
+            width: 50px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            height: 30px;
+            border-color: rgb(85, 85, 85);
+            background-image: linear-gradient(to left top, #f200f2, #d92bf5, #bf3cf6, #a547f5, #894ef3, #a043e5, #b238d6, #c02dc7, #e600a2);            
+            color: white;
+            left:25px;
+        }
+        .elem{
+            width: 800px;
+            position:relative;
+            font-size:20px;
+            top:-46px;
+            font-family: Verdana;
+            color:black;
+            left:20px;
+            max-width:750px;
+            word-wrap: break-word
+        }
+        .elemwith{
+            width: 800px;
+            position:relative;
+            font-size:20px;
+            top:-46px;
+            font-family: Verdana;
+            color:black;
+            left:20px;
+            max-width:750px;
+            word-wrap: break-word;
+            text-decoration: line-through;
+        }
+        .add:hover{
+            background-image: linear-gradient(20deg, #8f81f7, #7a69f8, #965dd3,#7e24df,#6300f9);
+            cursor: pointer;
+        }
+        .list{
+            position: relative;
+            list-style: none;
+            width: 800px;
+            top:150px;
+            /* background-color: black; */
+        }
+        .box{
+            border-radius: 4px;
+            position: relative;
+            width: 800px;
+            /* top:200px;*/
+            left: 250px;
+            background-image: linear-gradient(20deg, #f56977, #c189fc,#a44fff,#7112ff);
+        }
+        .tick{
+            position: relative;
+            left: 0px;
+            
+        }
+        .trash{
+            position: relative;
+            top: -30px;
+            transform: translateY(-50%);
+            width : 25px;
+            height : 25px;
+            position : relative;
+            left : 780px;
+            z-index: 1;
+            border-width:0;
+            /* background:transparent */
+        }
+        .trash:hover{
+            cursor: pointer;
+        }
+       
+        .yes{
+            text-decoration: line-through;
+        }
+        .no{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class = "top">
+        <h style = "position: relative;color: rgb(0, 0, 0);left: 100px; top:13px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Start Now or Never</h>
+    </header>
+
+    <div class = "middle">
+        <h style = "font-size: 30px; position: relative; left: 300px; top:100px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Dreams&Goals List</h>
+        <input class = "listentry" placeholder = "New Task" type = "text">
+        <button onclick="addElements()" class = "add"><h>Add</h></button>
+        <ul class = "list">
+        </ul>
+    </div>
+
+    <script src="todo_list.js"></script>
+</body>
+</html>
