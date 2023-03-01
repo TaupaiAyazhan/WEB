@@ -1,0 +1,22 @@
+.like{
+  background-color: red;
+  position: relative;
+  top: 41px;
+}
+.likes{
+  display: inline-block;
+  border-width: 0px;
+}
+.likee{
+  position: relative;
+  left: 60px;
+}
+.delete{
+  position: relative;
+  left: 35px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

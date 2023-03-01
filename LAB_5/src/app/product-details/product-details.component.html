@@ -1,0 +1,12 @@
+<p>product-details works!</p>
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <img src = {{product.image}} class="imgg">
+  <!-- <img src="https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h61/63072540131358/apple-iphone-14-128gb-cernyj-106363023-1.jpg" class = "photo"> -->
+  <h4>{{ product.price }} kzt</h4>
+  <p>{{ product.description }}</p>
+  <p>Rating : {{product.rating}},0</p>
+  <button type="button" (click)="addToCart(product)">Buy</button>
+</div>

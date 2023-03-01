@@ -1,0 +1,38 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+  <p>
+    Price : {{product.price}} kzt
+  </p>
+  <img src = {{product.image}} class = "photo">
+  <br>
+  <a target="_blank" href='https://t.me/share/url?url={{product.link}}&text={Share by telegram}'>
+    <button>Share on Telegram</button>
+  </a>
+  <fieldset class="likes">
+    <button target="_blank" class="like" (click) = "counterLike(product)"> like </button> <p class="likee">{{product.like}} ❤️</p>
+  </fieldset>
+  
+  <button (click) = "DeleteItem(product.id)" class="delete">Delete</button>
+  <!-- localStorage.setItem('link', product.link) -->
+  <!-- <p>
+    Category
+  </p> -->
+
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
